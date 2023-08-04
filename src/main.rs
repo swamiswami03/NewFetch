@@ -4,6 +4,8 @@ use colored::*;
 
 fn main() {
     // idea test
+
+    // this is another idea test
     endeavour_os_side()
 }
 
