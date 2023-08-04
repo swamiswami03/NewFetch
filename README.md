@@ -23,5 +23,8 @@ To configure the fetch for your specific system
 + open the main.rs file located in the src folder
 + go the the main function
   + comment out the distros that isnt yours with ``` // ```
-  + open up the terminal in your code editor and type ``` cargo build --release ```
+  + open up the terminal in your code editor and type ``` cargo build --release ``` after commenting out the other distros
+  + wait for cargo to build your project
++ go to the ``` /target/release``` in the project directory and place the executable in your ```/home/``` folder
++ you can run your fetch with ```./newfetch``` aslong as you are in your ```/home/``` directory
 
