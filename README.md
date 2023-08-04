@@ -8,8 +8,7 @@ A fast fetch for linux systems made with rust
 + Mint  
 
 
-More distros will be added with custom Ascii  
-The distros not on the list will use a generic linux pengiun ascii image  
+More distros will be added with custom Ascii. The distros not on the list will use a generic linux pengiun ascii image  
 
 ## Install
 ## Run Newfetch On Terminal Startup
