@@ -87,7 +87,7 @@ fn newfetch() {
             println!("{end1}         {}          {}", os, name);
 
         }
-        else if name == "Manjaro"
+        else if name == "Linux Mint"
         {
             end1 = "||||||||| ||||".green();
             end2 = "||||||||| ||||".green();
