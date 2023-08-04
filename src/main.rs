@@ -1,4 +1,3 @@
-git pull origin mainextern crate sysinfo;
 use sysinfo::{System, SystemExt};
 use colored::*;
 
@@ -6,6 +5,8 @@ fn main() {
     // idea test
 
     // this is another idea test
+
+    // test
     endeavour_os_side()
 }
 
