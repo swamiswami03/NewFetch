@@ -13,3 +13,8 @@ Please refer to the offical rust website if you are having problems install rust
 ```
 https://www.rust-lang.org/
 ```
+## Configure
+
+This fetch currently only supports 3 linux distros(Arch, EndeavourOs and Manjaro).More distros will be added in the future
+
+
