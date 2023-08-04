@@ -96,6 +96,11 @@ fn endeavour_os_side() {
     let system_total_memory = system_total_memory/ u64::pow(2,30);
     let system_used_memory = sys.used_memory();
     let system_used_memory = system_used_memory/ u64::pow(2,30);
+    let system_total_swap = sys.total_swap();
+    let system_total_swap = system_total_swap/u64::pow(2,30);
+    let system_used_swap = sys.used_swap();
+    let system_used_swap = system_used_swap/u64::pow(2,30);
+
 
 
     // string variables
@@ -142,7 +147,9 @@ fn endeavour_os_side() {
     println!("{end5}     {}       {}",cores,sys.cpus().len());
 
     // Swap
-    println!("{end6}     {}        {:?}/{:?} Swap Used",swap,sys.used_swap(),sys.total_swap());
+    //println!("{end6}     {}        {:?}/{:?} Swap Used",swap,sys.used_swap(),sys.total_swap());
+
+    println!("{end6}     {}        {:?}/{:?} GB Used ",swap,system_used_swap,system_total_swap);
 
 
 
