@@ -15,7 +15,7 @@ https://www.rust-lang.org/
 ```
 ## Configure
 
-This fetch currently only supports 3 linux distros(Arch, EndeavourOs and Manjaro)  
+NewFetch currently only supports 3 linux distros(Arch, EndeavourOs and Manjaro)  
 More distros will be added in the future
 
 To configure the fetch for your specific system
