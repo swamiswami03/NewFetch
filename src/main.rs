@@ -1,8 +1,9 @@
-extern crate sysinfo;
+git pull origin mainextern crate sysinfo;
 use sysinfo::{System, SystemExt};
 use colored::*;
 
 fn main() {
+    // comment test for git
     endeavour_os_side()
 }
 
