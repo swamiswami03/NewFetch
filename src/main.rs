@@ -101,9 +101,7 @@ fn newfetch() {
 
 
         }
-
-        else if name == "Linux Mint"
-        {
+        if name == "Linux Mint" {
             end1 = " ____________ ".green();
             end2 = "|_           \\".green();
             end3 = "  | | ______ |".green();
@@ -113,8 +111,6 @@ fn newfetch() {
             end7 = "  \\__________/".green();
 
             println!("{end1}         {}          {}", os, name);
-
-
         }
         else {
             end1 = "    .--.".cyan();
