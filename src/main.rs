@@ -63,7 +63,8 @@ fn newfetch() {
     let mut end7: ColoredString = String::new().bright_blue();
 
     if let Some(name) = system_name {
-        if name == "EndeavourOS" {
+        if name == "EndeavourOS"
+        {
             end1 = "      /\\".bright_blue();
             end2 = "    //  \\\\   ".bright_blue();
             end3 = "   //    \\ \\".bright_blue();
@@ -73,7 +74,9 @@ fn newfetch() {
             end7 = "             ".bright_blue();
             println!("{end1}         {}          {}", os, name);
 
-        } else if name == "Arch" {
+        }
+        else if name == "Arch"
+        {
             end1 = "      /\\".cyan();
             end2 = "     /\\ \\".cyan();
             end3 = "    /    \\".cyan();
@@ -84,7 +87,9 @@ fn newfetch() {
 
             println!("{end1}         {}          {}", os, name);
 
-        } else if name == "Manjaro"{
+        }
+        else if name == "Manjaro"
+        {
             end1 = "||||||||| ||||".green();
             end2 = "||||||||| ||||".green();
             end3 = "||||      ||||".green();
@@ -95,7 +100,24 @@ fn newfetch() {
 
             println!("{end1}         {}          {}", os, name);
 
-        }  else{
+
+        }
+
+        else if name == "Mint"
+        {
+            end1 = " ____________ ".green();
+            end2 = "|_           \\".green();
+            end3 = "  | | ______ |".green();
+            end4 = "  | | | |  | |".green();
+            end5 = "  | | | |  | |".green();
+            end6 = "  | \\______/ |".green();
+            end7 = "  \\__________/".green();
+
+            println!("{end1}         {}          {}", os, name);
+
+
+        }
+        else {
             end1 = "    .--.".cyan();
             end2 = "   |o_o |".cyan();
             end3 = "   |:_/ |".cyan();
