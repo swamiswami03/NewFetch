@@ -1,6 +1,5 @@
 use sysinfo::{System, SystemExt};
 use colored::*;
-use std::env;
 
 
 fn main() {
@@ -23,15 +22,15 @@ fn newfetch() {
     let system_total_memory = system_total_memory/ u64::pow(2,30);
     let system_used_memory = sys.used_memory();
     let system_used_memory = system_used_memory/ u64::pow(2,30);
-    let system_total_swap = sys.total_swap();
-    let system_total_swap = system_total_swap/u64::pow(2,30);
-    let system_used_swap = sys.used_swap();
-    let system_used_swap = system_used_swap/u64::pow(2,30);
+    //let system_total_swap = sys.total_swap();
+    //let system_total_swap = system_total_swap/u64::pow(2,30);
+    //let system_used_swap = sys.used_swap();
+    //let system_used_swap = system_used_swap/u64::pow(2,30);
     // uptime
     let seconds_system_uptime = sys.uptime();
     let seconds_system_uptime = seconds_system_uptime as f32;
-    let minutes_system_uptime = seconds_system_uptime/ 60.0;
-    let minutes_system_uptime = minutes_system_uptime;
+    //let minutes_system_uptime = seconds_system_uptime/ 60.0;
+    //let minutes_system_uptime = minutes_system_uptime;
     let hours_system_uptime = seconds_system_uptime / 3600.0;
     let hours_system_uptime = hours_system_uptime;
     //packages
