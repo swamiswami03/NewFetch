@@ -3,7 +3,6 @@ use sysinfo::{System, SystemExt};
 use colored::*;
 
 fn main() {
-    // comment test for git
     endeavour_os_side()
 }
 
