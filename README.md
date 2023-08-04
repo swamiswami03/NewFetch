@@ -25,3 +25,6 @@ git clone https://github.com/swamiswami03/NewFetch.git
   + ``` /.config/fish/config.fish ```
 + right click the NewFetch executable and mark the program as executable 
 + add the command ```./newfetch ``` to your config file
+
+
+![image](https://github.com/swamiswami03/NewFetch/assets/104904388/b75f87d9-1f22-48df-80d0-bbbb1d0faeff)
