@@ -8,11 +8,6 @@ fn main() {
 }
 
 
-
-
-fn newfetch() {
-
-
 fn newfetch() {
     
 
@@ -41,15 +36,9 @@ fn newfetch() {
     let hours_system_uptime = hours_system_uptime;
     //packages
     let installed_packages = std::process::Command::new("pacman")
-
     .args(&["-Qq"])
     .output()
     .expect("Failed to execute command");
-
-        .args(&["-Qq"])
-        .output()
-        .expect("Failed to execute command");
-
     let package_output = String::from_utf8_lossy(&installed_packages.stdout);
     let package_count = package_output.lines().count();
 
@@ -121,6 +110,7 @@ fn newfetch() {
     }
 
 
+ 
 
     // Host Name
     if let Some(system_host) = system_host {
@@ -149,4 +139,7 @@ fn newfetch() {
     //println!("{end6}     {}        {:?}/{:?} Swap Used",swap,sys.used_swap(),sys.total_swap());
 
     println!("{end7}    {}      {:.1} Hours        ",uptime,hours_system_uptime);
-    println!("");y
+    println!("");
+
+
+}
