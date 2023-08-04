@@ -9,7 +9,7 @@ Paste this command into your terminal to install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-Please refer to the offical rust website if you are having problems install rust
+Please refer to the offical rust website if you are having problems installing rust
 ```
 https://www.rust-lang.org/
 ```
