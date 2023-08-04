@@ -96,15 +96,15 @@ fn newfetch() {
             println!("{end1}         {}          {}", os, name);
 
         }  else{
-            end1 = "    .--.";
-            end2 = "   |o_o |";
-            end3 = "   |:_/ |";
-            end4 = "  //    \\";
-            end5 = " (|     | )";
-            end6 = "/'/_   _/`\\";
-            end7 = "\\__)=(___/";
+            end1 = "    .--.".cyan();
+            end2 = "   |o_o |".cyan();
+            end3 = "   |:_/ |".cyan();
+            end4 = "  //    \\".cyan();
+            end5 = " (|     | )".cyan();
+            end6 = "/'/_   _/`\\".cyan();
+            end7 = "\\__)=(___/".cyan();
 
-
+            println!("{end1}         {}          {}", os, name);
 
         }
     }
