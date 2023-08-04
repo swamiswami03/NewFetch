@@ -3,6 +3,7 @@ use sysinfo::{System, SystemExt};
 use colored::*;
 
 fn main() {
+    // idea test
     endeavour_os_side()
 }
 
