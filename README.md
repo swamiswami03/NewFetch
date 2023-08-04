@@ -18,4 +18,10 @@ https://www.rust-lang.org/
 This fetch currently only supports 3 linux distros(Arch, EndeavourOs and Manjaro)  
 More distros will be added in the future
 
+To configure the fetch for your specific system
++ open up your code editor of choice
++ open the main.rs file located in the src folder
++ go the the main function
+  + comment out the distros that isnt yours with ``` // ```
+  + open up the terminal in your code editor and type ``` cargo build --release ```
 
