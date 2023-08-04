@@ -13,23 +13,8 @@ Please refer to the offical rust website if you are having problems installing r
 ```
 https://www.rust-lang.org/
 ```
-## Configure
-
-NewFetch currently only supports 3 linux distros(Arch, EndeavourOs and Manjaro)  
-More distros will be added in the future
-
-To configure the fetch for your specific system
-+ open up your code editor of choice
-+ open the main.rs file located in the src folder
-+ go the the main function
-  + comment out the distros that isnt yours with ``` // ```
-  + open up the terminal in your code editor and type ``` cargo build --release ``` after commenting out the other distros
-  + wait for cargo to build your project
-+ go to the ```/target/release``` in the project directory and place the executable in your ```/home/``` directory
-+ right click the NewFetch executable and mark the program as executable 
-+ you can run your fetch with ```./newfetch``` aslong as you are in your ```/home/``` directory
-
-### Run Newfetch On Terminal Startup
+## Run Newfetch On Terminal Startup
++ go to the ```/target/release``` find the newfetch executable, and make the file as executable
 + place your newfetch executable in your ```/home/``` directory
 + open up your terminal config file
   + ```.bashrc```
