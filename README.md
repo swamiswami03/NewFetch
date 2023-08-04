@@ -1,6 +1,9 @@
 # NewFetch
 A fast fetch for linux systems made with rust
 
+
+![image](https://github.com/swamiswami03/NewFetch/assets/104904388/b75f87d9-1f22-48df-80d0-bbbb1d0faeff)
+
 ### Current Distros with Ascii Art
 + Arch
 + Manjaro 
@@ -26,5 +29,3 @@ git clone https://github.com/swamiswami03/NewFetch.git
 + right click the NewFetch executable and mark the program as executable 
 + add the command ```./newfetch ``` to your config file
 
-
-![image](https://github.com/swamiswami03/NewFetch/assets/104904388/b75f87d9-1f22-48df-80d0-bbbb1d0faeff)
