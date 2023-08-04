@@ -25,7 +25,7 @@ To configure the fetch for your specific system
   + comment out the distros that isnt yours with ``` // ```
   + open up the terminal in your code editor and type ``` cargo build --release ``` after commenting out the other distros
   + wait for cargo to build your project
-+ go to the ``` /target/release``` in the project directory and place the executable in your ```/home/``` directory
++ go to the ```/target/release``` in the project directory and place the executable in your ```/home/``` directory
 + you can run your fetch with ```./newfetch``` aslong as you are in your ```/home/``` directory
 
 ### Run Newfetch On Terminal Startup
