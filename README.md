@@ -11,6 +11,11 @@ A fast fetch for linux systems made with rust
 More distros will be added with custom Ascii. The distros not on the list will use a generic linux pengiun ascii image.
 
 ## Install
+run this command to clone the repo 
+```
+git clone https://github.com/swamiswami03/NewFetch.git
+```
+
 ## Run Newfetch On Terminal Startup
 + go to the ```/target/release``` find the newfetch executable, and make the file as executable
 + place your newfetch executable in your ```/home/``` directory
