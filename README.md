@@ -1,6 +1,9 @@
 # NewFetch
 A fast fetch for linux systems made with rust
 
+![image](https://github.com/swamiswami03/NewFetch/assets/104904388/e3f61ab1-f9b3-4a8e-b6fa-71a5c196e090)
+
+
 ### Current Distros with Ascii Art
 + Arch
 + Manjaro 
