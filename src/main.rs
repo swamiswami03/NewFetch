@@ -34,19 +34,19 @@ fn newfetch() {
     let hours_system_uptime = seconds_system_uptime / 3600.0;
     let hours_system_uptime = hours_system_uptime;
     //packages
-    let installed_packages = std::process::Command::new("pacman")
-    .args(&["-Qq"])
-    .output()
-    .expect("Failed to execute command");
-    let package_output = String::from_utf8_lossy(&installed_packages.stdout);
-    let package_count = package_output.lines().count();
+  //  let installed_packages = std::process::Command::new("pacman")
+   // .args(&["-Qq"])
+   // .output()
+   // .expect("Failed to execute command");
+   // let package_output = String::from_utf8_lossy(&installed_packages.stdout);
+   // let package_count = package_output.lines().count();
 
 
     // string variables
     let os = "OS".bright_purple();
     let hostname = "Host Name".bright_purple();
     let kernel = "Kernel".bright_purple();
-    let packages = "Packages".bright_purple();
+    //let packages = "Packages".bright_purple();
     let cores = "Cores".bright_purple();
     let memory = "Memory".bright_purple();
     let uptime = "Uptime".bright_purple();
@@ -101,7 +101,9 @@ fn newfetch() {
 
 
         }
-        if name == "Linux Mint" {
+
+        else if name == "Linux Mint"
+        {
             end1 = " ____________ ".green();
             end2 = "|_           \\".green();
             end3 = "  | | ______ |".green();
@@ -111,6 +113,8 @@ fn newfetch() {
             end7 = "  \\__________/".green();
 
             println!("{end1}         {}          {}", os, name);
+
+
         }
         else {
             end1 = "    .--.".cyan();
@@ -143,7 +147,7 @@ fn newfetch() {
         println!("nothing");
     }
     // Packages
-    println!("{end4}    {}    {}", packages, package_count);
+    println!("{end4}");
 
     // Cores
     println!("{end5}    {}       {}",cores,sys.cpus().len());
