@@ -127,7 +127,7 @@ fn newfetch() {
             end7 = "\\__)=(___/       ".cyan();
 
             println!("{end1} {}          {}", os, name);
-
+            //
         }
     }
 
