@@ -61,6 +61,7 @@ fn newfetch() {
     let mut end6: ColoredString = String::new().bright_blue();
     let mut end7: ColoredString = String::new().bright_blue();
 
+    // ascii art
     if let Some(name) = system_name {
         if name == "EndeavourOS"
         {
@@ -84,7 +85,7 @@ fn newfetch() {
             end6 = " /_''    ''_\\   ".cyan();
             end7 = "                 ".cyan();
 
-            println!("{end1}         {}          {}", os, name);
+            println!("{end1} {}          {}", os, name);
 
         }
         else if name == "Manjaro"
@@ -97,7 +98,7 @@ fn newfetch() {
             end6 = "|||| |||| ||||   ".green();
             end7 = "                 ".green();
 
-            println!("{end1}{}          {}", os, name);
+            println!("{end1} {}          {}", os, name);
 
 
         }
@@ -112,7 +113,7 @@ fn newfetch() {
             end6 = "  | \\______/ |  ".green();
             end7 = "  \\__________/  ".green();
 
-            println!("{end1}         {}          {}", os, name);
+            println!("{end1} {}          {}", os, name);
 
 
         }
@@ -129,6 +130,9 @@ fn newfetch() {
 
         }
     }
+
+
+    // print information about distros
 
     // Host Name
     if let Some(system_host) = system_host {
