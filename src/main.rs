@@ -147,19 +147,19 @@ fn newfetch() {
         println!("nothing");
     }
     // Packages
-    println!("{end4}");
+    // println!("{end4}");
 
     // Cores
-    println!("{end5}    {}       {}",cores,sys.cpus().len());
+    println!("{end4}    {}       {}",cores,sys.cpus().len());
 
     // Memory
-    println!("{end6}    {}      {:?}/{:?} GB Used ",memory,system_used_memory,system_total_memory);
+    println!("{end5}    {}      {:?}/{:?} GB Used ",memory,system_used_memory,system_total_memory);
 
 
     // Swap
     //println!("{end6}     {}        {:?}/{:?} Swap Used",swap,sys.used_swap(),sys.total_swap());
 
-    println!("{end7}    {}      {:.1} Hours        ",uptime,hours_system_uptime);
+    println!("{end6}    {}      {:.1} Hours        ",uptime,hours_system_uptime);
     println!("");
 
 
