@@ -65,24 +65,24 @@ fn newfetch() {
     if let Some(name) = system_name {
         if name == "EndeavourOS"
         {
-            end1 = "      /\\        ".bright_blue();
-            end2 = "    //  \\\\     ".bright_blue();
-            end3 = "   //    \\ \\   ".bright_blue();
-            end4 = " / /     _) )    ".bright_blue();
-            end5 = "/_/___-- __-     ".bright_blue();
-            end6 = " /____--         ".bright_blue();
-            end7 = "                 ".bright_blue();
-            println!("{end1} {}          {}", os, name);
+            end1 = "      /\\           ".bright_blue();
+            end2 = "    //  \\\\         ".bright_blue();
+            end3 = "   //    \\ \\       ".bright_blue();
+            end4 = " / /     _) )      ".bright_blue();
+            end5 = "/_/___-- __-       ".bright_blue();
+            end6 = " /____--           ".bright_blue();
+            end7 = "                   ".bright_blue();
+            println!("{end1}{}          {}", os, name);
 
         }
         else if name == "Arch"
         {
-            end1 = "      /\\        ".cyan();
-            end2 = "     /\\ \\      ".cyan();
-            end3 = "    /    \\      ".cyan();
-            end4 = "   /  ,,  \\     ".cyan();
-            end5 = "  /  |  | -\\    ".cyan();
-            end6 = " /_''    ''_\\   ".cyan();
+            end1 = "      /\\         ".cyan();
+            end2 = "     /\\ \\        ".cyan();
+            end3 = "    /    \\       ".cyan();
+            end4 = "   /  ,,  \\      ".cyan();
+            end5 = "  /  |  | -\\     ".cyan();
+            end6 = " /_''    ''_\\    ".cyan();
             end7 = "                 ".cyan();
 
             println!("{end1} {}          {}", os, name);
@@ -106,12 +106,12 @@ fn newfetch() {
         else if name == "Linux Mint"
         {
             end1 = " ____________    ".green();
-            end2 = "|_           \\  ".green();
+            end2 = "|_           \\   ".green();
             end3 = "  | | ______ |   ".green();
             end4 = "  | | | |  | |   ".green();
             end5 = "  | | | |  | |   ".green();
-            end6 = "  | \\______/ |  ".green();
-            end7 = "  \\__________/  ".green();
+            end6 = "  | \\______/ |   ".green();
+            end7 = "  \\__________/   ".green();
 
             println!("{end1} {}          {}", os, name);
 
@@ -121,12 +121,12 @@ fn newfetch() {
             end1 = "    .--.         ".cyan();
             end2 = "   |o_o |        ".cyan();
             end3 = "   |:_/ |        ".cyan();
-            end4 = "  //    \\       ".cyan();
+            end4 = "  //    \\        ".cyan();
             end5 = " (|     | )      ".cyan();
-            end6 = "/'/_   _/`\\     ".cyan();
-            end7 = "\\__)=(___/      ".cyan();
+            end6 = "/'/_   _/`\\      ".cyan();
+            end7 = "\\__)=(___/       ".cyan();
 
-            println!("{end1}         {}          {}", os, name);
+            println!("{end1} {}          {}", os, name);
 
         }
     }
@@ -136,14 +136,14 @@ fn newfetch() {
 
     // Host Name
     if let Some(system_host) = system_host {
-        println!("{end2}  {}   {}",hostname,system_host);
+        println!("{end2}{}   {}",hostname,system_host);
     } else {
         println!("nothing");
     }
 
     // Kernel
     if let Some(system_kernel) = system_kernel {
-        println!("{end3}  {}      {}",kernel,system_kernel);
+        println!("{end3}{}      {}",kernel,system_kernel);
     } else {
         println!("nothing");
     }
