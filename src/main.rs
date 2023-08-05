@@ -105,7 +105,7 @@ fn newfetch() {
 
         else if name == "Linux Mint"
         {
-            end1 = " ____________     ".green();
+            end1 = " ____________   ".green();
             end2 = "|_           \\   ".green();
             end3 = "  | | ______ |   ".green();
             end4 = "  | | | |  | |   ".green();
