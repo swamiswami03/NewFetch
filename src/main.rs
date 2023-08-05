@@ -34,7 +34,7 @@ fn newfetch() {
     let hours_system_uptime = seconds_system_uptime / 3600.0;
     let hours_system_uptime = hours_system_uptime;
     //packages
-  //  let installed_packages = std::process::Command::new("pacman")
+   //  let installed_packages = std::process::Command::new("pacman")
    // .args(&["-Qq"])
    // .output()
    // .expect("Failed to execute command");

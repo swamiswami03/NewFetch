@@ -1,1 +1,1 @@
-/home/swami/Programming/Rust/fetch/newfetch/target/debug/newfetch: /home/swami/Programming/Rust/fetch/newfetch/src/main.rs
+/home/swami/programming/NewFetch/target/debug/newfetch: /home/swami/programming/NewFetch/src/main.rs
