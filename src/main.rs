@@ -90,13 +90,13 @@ fn newfetch() {
         }
         else if name == "Manjaro"
         {
-            end1 = "||||||||| ||||   ".green();
-            end2 = "||||||||| ||||   ".green();
-            end3 = "||||      ||||   ".green();
-            end4 = "|||| |||| ||||   ".green();
-            end5 = "|||| |||| ||||   ".green();
-            end6 = "|||| |||| ||||   ".green();
-            end7 = "                 ".green();
+            end1 = "||||||||| ||||     ".green();
+            end2 = "||||||||| ||||     ".green();
+            end3 = "||||      ||||     ".green();
+            end4 = "|||| |||| ||||     ".green();
+            end5 = "|||| |||| ||||     ".green();
+            end6 = "|||| |||| ||||     ".green();
+            end7 = "                   ".green();
 
             println!("{end1} {}          {}", os, name);
 
@@ -105,7 +105,7 @@ fn newfetch() {
 
         else if name == "Linux Mint"
         {
-            end1 = " ____________    ".green();
+            end1 = " ____________     ".green();
             end2 = "|_           \\   ".green();
             end3 = "  | | ______ |   ".green();
             end4 = "  | | | |  | |   ".green();
