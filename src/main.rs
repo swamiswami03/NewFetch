@@ -160,7 +160,6 @@ fn newfetch() {
     //println!("{end6}     {}        {:?}/{:?} Swap Used",swap,sys.used_swap(),sys.total_swap());
 
     println!("{end6}    {}      {:.1} Hours        ",uptime,hours_system_uptime);
-    println!("");
-
+    println!("{end7}");
 
 }
